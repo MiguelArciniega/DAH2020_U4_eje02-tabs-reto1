@@ -3,11 +3,11 @@ import { Estudiante } from '../models/estudiante';
 import { EstudianteService } from '../services/estudiante.service';
 
 @Component({
-  selector: 'app-tab2',
-  templateUrl: 'tab2.page.html',
-  styleUrls: ['tab2.page.scss']
+  selector: 'app-tab4',
+  templateUrl: './tab4.page.html',
+  styleUrls: ['./tab4.page.scss'],
 })
-export class Tab2Page {
+export class Tab4Page {
 
   public students: Estudiante[];
 
@@ -21,4 +21,5 @@ export class Tab2Page {
       })
     })
   }
+
 }
